@@ -1,0 +1,115 @@
+/* styles.css */
+
+
+  
+
+.text-center{
+    margin-top: 50px;
+}
+  
+  
+
+
+.text-center a {
+    font-size: 3rem; /* Atur ukuran sesuai kebutuhan */
+    margin-right: 50px;
+}
+  
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}    
+
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.fs-2 {
+    font-size: calc(1.325rem + 0.70vw) !important;
+
+}
+
+
+
+.text-black i:hover {
+    opacity: 0.100; /* Mengurangi opasitas saat kursor mengarah ke tautan */
+    transform: scale(1.7); /* Memperbesar elemen saat kursor mengarah ke tautan */
+    transition: opacity 0.3s, transform 0.3s; /* Animasi transisi saat efek hover aktif */
+
+}
+
+/* Reset gaya tautan */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Gaya navigasi */
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+  
+}
+  
+
+
+nav {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+/* Gaya header dan section */
+header, section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
